@@ -2,6 +2,7 @@
     background-color: #EEEEED;
 
  }
+
  * {
     margin: 0;
     padding: 0;
@@ -11,13 +12,7 @@
     font-weight: bold;
     font-family: Roboto Mono; font-size: 30px;letter-spacing: 1.5px;
     }
-
-
-
-
-
-
-        
+     
 nav {
     background-color: #EEEEED;
     color: black ;
@@ -36,7 +31,6 @@ nav {
    
 /*    padding: 0 20px;*/
 }
-
 
 .but-log-in{
     border-color:#282923;
@@ -59,8 +53,6 @@ nav {
 
 }
 
-
-
 .but-sign-up{
     border-radius:100px;
     border:none;
@@ -78,8 +70,6 @@ nav {
     margin-left: -5px; /* Компенсируем увеличение */
     margin-right: -5px;
 }
-
-
 
 .nav-left {
     display: flex;
@@ -111,6 +101,7 @@ nav a{
     padding: 20px;
     transition: 0.5s ;
 }
+
 .nav-a:hover{
     border-radius:100px;
     background-color: #bae637;
@@ -133,10 +124,6 @@ nav a{
 /*    margin-left: 50px;*/
 
 }
-
-
-
-
 
 
 
@@ -180,11 +167,11 @@ nav a{
     padding: 40px;
     border-radius: 100px;
 }
+
 .description-text{
 /*    font-weight: bold;*/
     font-size: 30px;
 }
-
 
 .quotes-container {
     margin-top: 90px;
@@ -221,12 +208,6 @@ nav a{
     }
 }
  
-
-
-
-
-
-
 .tools-description {
     font-weight: bold;
     font-size:60px;
@@ -239,7 +220,6 @@ nav a{
 
  }
 
-
 .image-container{
     text-align: center;
     margin-top: 30px;
@@ -247,14 +227,11 @@ nav a{
 
 }
 
-
 .tools-img-description{
     border: 2px solid #282923;
     border-radius:100px;
     box-shadow: 0 30px 0 0 rgb(186,230,55);
  }
-
-
 
 .tools-conteiner1{
     background-image: url(images/effect.png);
@@ -262,12 +239,14 @@ nav a{
     background-size: 600px 600px;
     background-repeat: no-repeat;
  }
+
  .tools-conteiner2{
     background-image: url(images/effect.png);
     background-position: 50em 500px;
     background-size: 300px 300px;
     background-repeat: no-repeat;
  }
+
  .tools-conteiner3{
     background-image: url(images/effect.png);
     background-position: 20em 1px;
@@ -284,12 +263,6 @@ nav a{
     justify-content: center;
     align-items: flex-end;
 /*    padding-bottom:300px;*/
-
-
-
-
-
-
 }
 
 .footer1{
@@ -298,7 +271,25 @@ nav a{
 .footer2{   
 }
 
-
 footer p{
     font-size: 80px;
 }
+
+
+
+
+
+.input-cinteiner{
+    align-items: center;
+}
+
+
+.log-sign{
+    width:100px;
+    height:200px;
+    border: solid;
+    border-radius: 30px;
+}
+
+
+
