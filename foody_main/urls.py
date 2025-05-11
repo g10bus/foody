@@ -24,7 +24,7 @@ from foody import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('foody/', include('foody.urls')),
+    path('', include('foody.urls')),
     path('foody_diary/', include('foody_diary.urls')),
     path('foody_calculator/', include('foody_calculator.urls')),
     path('foody_recipe/', include('foody_recipe.urls')),
