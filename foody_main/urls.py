@@ -26,6 +26,9 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('foody/', include('foody.urls')),
     path('foody_diary/', include('foody_diary.urls')),
+    path('foody_calculator/', include('foody_calculator.urls')),
+    path('foody_recipe/', include('foody_recipe.urls')),
+    path('foody_login/', include('foody_login.urls')),
 ] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
 
 #urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

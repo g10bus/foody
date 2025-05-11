@@ -40,6 +40,8 @@ INSTALLED_APPS = [
     'foody',
     'foody_diary',
     'foody_login',
+    'foody_recipe',
+    'foody_calculator',
 ]
 
 MIDDLEWARE = [
