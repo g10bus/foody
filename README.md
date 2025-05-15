@@ -23,7 +23,4 @@ python3 manage.py startapp <Название нового приложения>
 Для создания нового админа нужно использовать команду:
 python3 manage.py createsuperuser
 
-Уже созданный user: admin
-password: 1111
-
 для изменения пароля user: python3 manage.py changepassword <Имя юзера>
