@@ -1,6 +1,9 @@
  body{
     background-color: #EEEEED;
-
+    background-image: url(images/effect.png);
+    background-position: -3em 600px;
+    background-size: 600px 600px;
+    background-repeat: no-repeat;
  }
 
  * {
@@ -103,7 +106,7 @@ nav a{
 }
 
 .nav-a:hover{
-    border-radius:100px;
+    border-radius:10px;
     background-color: #bae637;
     
 
@@ -279,6 +282,10 @@ footer p{
 
 
 .input-conteiner{
+    background-image: url(images/effect.png);
+    background-position: 50em 200px;
+    background-size: 300px 300px;
+    background-repeat: no-repeat;
 /*    align-items: flex-end;*/
     margin-top:100px;
     display: flex;
@@ -289,16 +296,20 @@ footer p{
 .log-sign{
     width:1300px;
     height:656px;
+    /*background-color: #BDBDBB;*/
     display: flex;
     border: solid;
+    /*border-width: 5px;*/
+    /*border-color: #BDBDBB;*/
 /*    justify-content: space-between;*/
-    border-radius: 30px;
+    /*border-radius: 30px;*/
 }
 
 .log-sign-image {
     position: relative; /* Важно для псевдоэлемента */
     background-image: url("images/log-reg-image.png");
-    border-radius: 25px;
+    height: 650px;
+    /*border-radius: 25px;*/
     width: 50%;
     display: flex;
     justify-content: center; 
@@ -314,30 +325,42 @@ footer p{
     right: 0;
     bottom: 0;
     background: rgba(0, 0, 0, 0.2); /* Черный слой с прозрачностью 50% */
-    border-radius: 25px;
+    /*border-radius: 25px;*/
 }
 
 .log-sign-image h1 {
     position: relative; /* Чтобы текст был поверх затемнения */
     text-align: center;  
+
     z-index: 1; /* Поднимаем текст над затемнением */
 }
 
 .button-back{
     margin-left:20px;
     margin-top:20px;
+    border: none;
+    background-image: url("images/arrow.png");
+    width:42px;
+    height: 38px;
 }
 
-.input-log-sign{
 
 
+.input-log-sign {
+/*    border: solid;
+    border-left: none;
+    padding-right: 100px;
+    border-radius: 0;*/
 }
+
+
 
 
 .input-log-sign-conteiner{
     width: 450px;
     height: 500px;
     background-color:#BAE637;
+    padding:20px;
     margin-left:100px;
     margin-top:10px ;
     border-radius: 20px;
@@ -345,11 +368,59 @@ footer p{
 }
 
 .input-log-sign-conteiner h1 {
-    font-size:50px; 
+    font-size:60px; 
     text-align: center;"
+    margin-top:20px;
+    border: none;
+    /*color:#EEEEED;*/
+
 
 }
 
 .input-log-sign-conteiner input {
+    margin-bottom:15px;
+    border-radius:30px;
+    width: 360px;
+    height: 60px;
+    border: none;
+    /*padding:10px ;*/
+    background-color: #EEEEED;
+    padding-left:20px;
+    color: grey;
+    font-weight: 200;
+    font-size:20px;
+
 
 }
+
+.input-log-sign-conteiner button{
+    border-radius: 30px;
+    margin-top: 10px;
+    width: 160px;
+    height: 60px;
+    font-size: 20px;
+    background-color: #282923;
+    color: #EEEEED ;
+    border: none;
+    margin-bottom: 50px;
+    /*transition: 0.3s;*/
+}
+
+.input-log-sign-conteiner button:hover{
+
+
+
+}
+
+
+
+/*
+.input-log-sign-conteiner input:  {
+    margin-bottom:10px;
+    border-radius:20px;
+    border: none;
+    padding:5px ;
+    color: grey;
+
+
+}*/
