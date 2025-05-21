@@ -275,21 +275,81 @@ footer p{
     font-size: 80px;
 }
 
+/*--------------------------------------------log - reg--------------------------------------------*/
 
 
-
-
-.input-cinteiner{
-    align-items: center;
+.input-conteiner{
+/*    align-items: flex-end;*/
+    margin-top:100px;
+    display: flex;
+    justify-content: center;
 }
 
 
 .log-sign{
-    width:100px;
-    height:200px;
+    width:1300px;
+    height:656px;
+    display: flex;
     border: solid;
+/*    justify-content: space-between;*/
     border-radius: 30px;
 }
 
+.log-sign-image {
+    position: relative; /* Важно для псевдоэлемента */
+    background-image: url("images/log-reg-image.png");
+    border-radius: 25px;
+    width: 50%;
+    display: flex;
+    justify-content: center; 
+    align-items: center;             /* Центр по вертикали */
+    overflow: hidden; /* Чтобы скругления углов работали */
+}
+
+.log-sign-image::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.2); /* Черный слой с прозрачностью 50% */
+    border-radius: 25px;
+}
+
+.log-sign-image h1 {
+    position: relative; /* Чтобы текст был поверх затемнения */
+    text-align: center;  
+    z-index: 1; /* Поднимаем текст над затемнением */
+}
+
+.button-back{
+    margin-left:20px;
+    margin-top:20px;
+}
+
+.input-log-sign{
 
 
+}
+
+
+.input-log-sign-conteiner{
+    width: 450px;
+    height: 500px;
+    background-color:#BAE637;
+    margin-left:100px;
+    margin-top:10px ;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.input-log-sign-conteiner h1 {
+    font-size:50px; 
+    text-align: center;"
+
+}
+
+.input-log-sign-conteiner input {
+
+}
